@@ -1,0 +1,2 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule ^hello/([0-9a-zA-Z_-]*)$ hello_api.php?name=$1 [NC,L]
